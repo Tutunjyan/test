@@ -4,5 +4,5 @@
 <?php
 
 echo $name;
-
+echo "Hi there";
 ?>
