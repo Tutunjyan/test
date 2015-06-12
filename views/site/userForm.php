@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 ?>
 <?php
+echo "Hi";
 	 if(Yii::$app->session->hasFlash('mimi'))
 		{
 			echo Yii::$app->session->getFlash('mimi');
