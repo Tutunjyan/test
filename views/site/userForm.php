@@ -3,7 +3,8 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 ?>
-<?php
+<?
+echo "Hi am in master branch";
 	 if(Yii::$app->session->hasFlash('mimi'))
 		{
 			echo Yii::$app->session->getFlash('mimi');
